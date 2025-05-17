@@ -68,13 +68,13 @@ entre los elementos, y gap para la distancia minima de estos*/
 en 2 con el gap. luego un padding entre todos */
 .menu-pizzas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3,1fr);
+  margin-inline: auto;
+  width: 90%;
   gap: 40px;
-  padding: 10px;
-  justify-items: center;
+  padding: 40px;
+  place-items: center;
 }
-
-
 
 /*color de la caja, borde con color y con sombra, padding con el interior de la caja
 un bordecito para que quede mas con el tono pizza, tamaño, alineacion de texto y 
@@ -86,7 +86,7 @@ animacion definida en animaciones.*/
   box-shadow: 0 0 15px #800080;
   padding: 20px;
   border-radius: 10px;
-  width: 320px;
+  width: 280px;
   text-align: center;
   animation: pulseShadow 2s infinite;
 }
